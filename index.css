@@ -5,13 +5,14 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(1.jpg);
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
+    url(images/banner.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
-.newbar{
+.navbar{
     width: 1200px;
     height: 70px;
     margin: auto;
@@ -38,21 +39,15 @@
     height: 70px;
 }
 
-ul{
+.menu a{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-ul li{
     list-style: none;
-    margin-left: 52px;
+    margin-left: 22px;
     margin-top: 27px;
     font-size: 14px;
-}
-
-ul li a{
     text-decoration: none;
     color: white;
     font-family: Arial;
@@ -60,7 +55,7 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
+.menu a:hover{
     color: green;
 }
 
@@ -82,8 +77,8 @@ ul li a:hover{
     font-size: 14px;
     float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .btn{
@@ -94,8 +89,8 @@ ul li a:hover{
     margin-top: 13px;
     color: white;
     font-size: 14px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .btn:focus{
@@ -160,13 +155,17 @@ ul li a:hover{
 
 .form{
     width: 300px;
-    height: 350px;
+    height: 335px;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     position: absolute;
-    top: -150px;
+    top: -80px;
     left: 600px;
     border-radius: 10px;
     padding: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .form h2{
@@ -177,13 +176,14 @@ ul li a:hover{
     background-color: white;
     font-size: 22px;
     border-radius: 10px;
+    text-transform: uppercase;
     margin: 2px;
     padding: 3px;
 }
 
 .form input{
     width: 290px;
-    height: 35px;
+    height: 20px;
     background: transparent;
     border-bottom: 2px solid green;
     border-top: none;
@@ -201,7 +201,7 @@ ul li a:hover{
 }
 
 ::placeholder{
-    color: white;
+    color: rgb(109, 108, 108);
     font-family: Arial;
 }
 
@@ -223,7 +223,7 @@ ul li a:hover{
     color: green;
 }
 
-.btnn a{
+.btnn{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -234,6 +234,7 @@ ul li a:hover{
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
+    color: white;
 }
 
 .form .link a{
@@ -263,3 +264,171 @@ ul li a:hover{
 .icon ion-icon:hover{
     color: green;
 }
+
+                                            /*ABOUT US*/
+.content1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+    left: -10%;
+    font-size: ;
+}
+
+.content1 span{
+    color: green;
+    font-size: 80px;
+}
+
+.content1 .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content1 h1{
+    font-family: 'algerian';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.c{
+    background-color: rgb(252, 253, 252);
+    float: right;
+}
+
+.c h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.c h2{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.c p{
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    color: black;
+    margin-bottom: 40px;
+    margin-top: auto;
+}
+
+                                      /*REGISTRATION*/
+
+.reg-form{
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.reg-form h1{
+    width: 290px;
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 3px
+}
+
+.reg-form p{
+    font-size: 17px;
+    margin: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.reg-form input{
+    width: 290px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 2px solid green;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.reg-form input:focus{
+    outline: none;
+}
+
+.reg-form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+.reg-form .link a{
+    text-decoration: none;
+    color: green;
+}
+
+.suw{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.suw .icon a{
+    top: -15;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+}
+
+footer p{
+    font-size: 10px;
+}
+
+                                          /*SERVICES*/
+
+.service h3{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+                                           /*BLOGS*/
+
