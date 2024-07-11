@@ -330,7 +330,7 @@
 .reg-form{
     position: absolute;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    top: 0%;
+    top: 10%;
     left: 70%;
     transform: translate(-50%, -50%);
     width: 300px;
